@@ -86,9 +86,10 @@ function bermondseyelectronics_setup() {
     // This theme uses wp_nav_menu() in two locations.
     register_nav_menus( array(
             'primary' => __( 'Primary Menu', 'bermondseyelectronics' ),
-            'social'  => __( 'Social Links Menu', 'bermondseyelectronics' ),
-            'header'  => __( 'Header Menu', 'bermondseyelectronics' ),
+//            'social'  => __( 'Social Links Menu', 'bermondseyelectronics' ),
+//            'header'  => __( 'Header Menu', 'bermondseyelectronics' ),
             'footer'  => __( 'Footer Menu', 'bermondseyelectronics' ),
+            'product'  => __( 'Product Menu', 'bermondseyelectronics' ),
     ) );
 
     /*

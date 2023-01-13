@@ -1,0 +1,68 @@
+[21-Aug-2022 23:21:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[21-Aug-2022 23:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[21-Aug-2022 23:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[22-Aug-2022 00:22:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[22-Aug-2022 00:22:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[22-Aug-2022 00:24:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[22-Aug-2022 00:25:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[22-Aug-2022 00:28:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[22-Aug-2022 00:28:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[22-Aug-2022 00:29:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[22-Aug-2022 00:29:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[22-Aug-2022 00:31:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[22-Aug-2022 00:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[22-Aug-2022 02:06:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[23-Aug-2022 00:06:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[25-Aug-2022 02:14:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 17
+[25-Aug-2022 23:31:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/jpf1drfmikf6/public_html/bel/wp-content/themes/bermondsey-electronics/index.php on line 16

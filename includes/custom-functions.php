@@ -149,3 +149,14 @@ add_action('admin_head', 'bermondseyelectronics_admin_favicon');
  * add filter to add shortcode in widget
  */
 add_filter( 'widget_text', 'do_shortcode' );
+
+
+add_filter('acf/prepare_field/name=product_menu', 'acf_dynamic_dropdown_menus');
+function acf_dynamic_dropdown_menus($field) {
+    $menu['nothing'] = 'Select Options';
+    $menus = $menu + get_registered_nav_menus();
+    $field['choices'] = $menus;
+    return $field;
+}
+
+add_filter( 'big_image_size_threshold', '__return_false' );

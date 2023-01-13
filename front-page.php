@@ -2,14 +2,6 @@
 // Exit if accessed directly
 if ( !defined( 'ABSPATH' ) ) exit;
 
-/**
- * Template Name: Front page Template
- *
- * @package WordPress
- * @subpackage bermondseyelectronics
- * @since bermondseyelectronics 1.0
- */
-
 get_header(); ?>
 <?php if (class_exists('acf')) { 
     

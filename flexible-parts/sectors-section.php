@@ -9,8 +9,8 @@ $cta = get_sub_field('cta');
 <section class="sectors-section section-ptb pb-0">
     <div class="container container-small">
         <div class="sec-title para24">
-            <h4><?php echo $news_title ?></h4>
-            <p><?php echo $news_content ?></p>
+            <h4><?php echo $sectors_title ?></h4>
+            <p><?php echo $sector_content ?></p>
         </div>
     </div>
     <div class="sectors-wrap">

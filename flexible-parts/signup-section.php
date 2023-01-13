@@ -1,22 +1,15 @@
 <?php
-
-// Exit if accessed directly
-if (!defined('ABSPATH'))
-    exit;
-/*
- * Template Name: Developer Page Template
- *
- * @package WordPress
- * @subpackage bermondseyelectronics
- * @since bermondseyelectronics 1.0
- */
-
-get_header();
+wp_reset_query();
+wp_reset_postdata();
+$signup_title = get_sub_field('signup_title');
+$signup_content = get_sub_field('signup_content');
+$signup_code = get_sub_field('signup_code');
 ?>
 <section class="form-section section-ptb pb-0 signup-form">
     <div class="container container-small">
         <div class="sec-title para24">
-            <h4>Trial Signup</h4>
+            <h4><?php echo $signup_title ?></h4>
+            <p><?php echo $signup_content ?></p>
         </div>
         <div class="contact-form">
             <form action="http://secure.softwarekey.com/solo/products/trialsignup.asp" method="post" onsubmit="return Form_Validator(this)">
@@ -42,7 +35,7 @@ get_header();
                         <label>Company Name:</label>
                         <input type="text" name="CompanyName" maxlength="50">
                     </div>
-                    <div class="row submit-btn">
+                    <div class="submit-btn">
                         <div class="col-md-5 relative">
                             <input type="submit" value="Submit" class="btn-bordered btn">
                         </div>
@@ -52,5 +45,3 @@ get_header();
         </div>
     </div>
 </section>
-<style> label{padding-top: 15px;}</style>
-<?php get_footer(); ?>

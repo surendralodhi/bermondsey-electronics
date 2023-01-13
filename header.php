@@ -36,14 +36,21 @@
     <?php 
     if(class_exists('acf')){
         $site_logo = get_field('bermondseyelectronics_options_site_logo','option');
+        $header_white_and_black = get_field('header_white_and_black', get_the_ID());
     }
     ?>
     <div class="loader"></div>
-    <header id="header">
+    <header id="header" <?php if ($header_white_and_black) { ?> class="black-header" <?php } ?>>
         <div class="header-wrap">
             <div class="logo">
                 <a href="<?php echo home_url(); ?>"><img src="<?php echo $site_logo['url']?>" alt=""></a>
+                <?php if(!is_front_page()) { ?>
+                    <div class="breadcrumbs-nav">
+                        <?php bcn_display(); ?>
+                    </div>
+                <?php } ?>
             </div>
+            
             <div class="nav-menu">
                 <a class="menulinks"><i></i></a>
                 <?php if ( has_nav_menu( 'primary' ) ) : ?>

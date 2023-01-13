@@ -9,22 +9,16 @@
 
 get_header(); ?>
 
-    <div id="primary" class="content-area">
-	<main id="main" class="site-main" role="main">
-            
-                <section class="error-404 not-found">
-                        <header class="page-header">
-                                <h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'bermondseyelectronics' ); ?></h1>
-                        </header><!-- .page-header -->
-
-                        <div class="page-content">
-                                <p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'bermondseyelectronics' ); ?></p>
-
-                                <?php get_search_form(); ?>
-                        </div><!-- .page-content -->
-                </section><!-- .error-404 -->
-
-	</main><!-- .site-main -->
-    </div><!-- .content-area -->
+  <section class="section-404">
+    <div class="container container-small">
+        <div class="error-content para24">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/755014.png" alt="">
+            <h1>Oops, page not found</h1>
+            <div class="btn-block text-center">
+                <a class="btn btn-bordered btn-white" href="<?php echo home_url(); ?>" target="">Back to Homepage</a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php get_footer(); ?>

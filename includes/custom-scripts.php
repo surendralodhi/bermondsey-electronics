@@ -34,6 +34,9 @@ function bermondseyelectronics_public_scripts() {
     wp_enqueue_script( 'bootstrap.bundle.min', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array(), NULL );
     // Load slick.min
     wp_enqueue_script( 'slick.min', get_template_directory_uri() . '/js/slick.min.js', array(), NULL );
+    
+    // Load slick.min
+    wp_enqueue_script( 'client_validations.min', get_template_directory_uri() . '/js/client_validations.js', array(), NULL );
     // Load public script
     wp_enqueue_script( 'bermondseyelectronics-public-script', get_template_directory_uri() . '/js/public-script.js', array(), NULL );
     //localize public script

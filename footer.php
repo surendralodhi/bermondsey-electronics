@@ -19,6 +19,10 @@ if(class_exists('acf')){
     $c_phone = get_field('bermondseyelectronics_options_c_phone','option');
     $c_email = get_field('bermondseyelectronics_options_c_email','option');
     $c_address = get_field('bermondseyelectronics_options_c_address','option');
+    $dissmissable_c = get_field('bermondseyelectronics_options_dissmissable_content','option');
+    $dissmissable_button = get_field('bermondseyelectronics_options_dissmissable_button_list','option');
+    $dissmissable_c = !empty(get_field('dissmissable_content',get_the_ID())) ? get_field('dissmissable_content',get_the_ID()) : $dissmissable_c  ;
+    $dissmissable_button = !empty(get_field('dissmissable_button_list',get_the_ID())) ? get_field('dissmissable_button_list',get_the_ID()) : $dissmissable_button  ;
 }
 ?>
 		<!-- Footer start here -->
@@ -78,7 +82,7 @@ if(class_exists('acf')){
                 <div class="container">
                     <div class="footer-bottom-wrap">
                         <?php if(!empty($s_li_link)){ ?>
-                        <div class="follow-us">Follow us on <a href="<?php echo $s_li_link ?>">LinkedIn</a></div>
+                        <div class="follow-us">Follow us on <a href="<?php echo $s_li_link ?>" target="_blank">LinkedIn</a></div>
                         <?php } ?>
                         <?php if(!empty($c_phone)){ ?>
                         <div class="privacyPolicy">
@@ -94,6 +98,17 @@ if(class_exists('acf')){
                 </div>
             </div>
         </footer><!-- Footer End here -->
+        <div class="dissmissable-cta">
+            <div class="close"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/BEL-CTA-Close.svg" alt=""></div>
+            <?php if(!empty($f_copy)){ ?>
+                <p><?php echo $dissmissable_c; ?></p>
+            <?php }?>
+            <?php foreach ($dissmissable_button as $link) { ?>
+                <div class="btn-block text-center">
+                    <a class="btn btn-bordered btn-white" href="<?php echo $link['button']['url']; ?>" target="<?php echo $link['button']['target']; ?>"><?php echo $link['button']['title']; ?><span class="btn-arrow"></span></a> 
+                </div>
+            <?php } ?>
+        </div>
         <?php wp_footer(); ?>
     </body>
 </html>
